@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CabInvoiceGenerator
 {
-   public class RideRepository
+   public class RideRepository 
     {
         Dictionary<string, List<Ride>> userRides = null;
 
