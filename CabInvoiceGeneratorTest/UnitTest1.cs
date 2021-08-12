@@ -60,6 +60,7 @@ namespace CabInvoiceGeneratorTest
             Assert.AreEqual(expected, fare);
         }
 
+
         [Test]
         public void GivenMultipleRideShouldReturnInvoiceSummaryForPremiumTypeCab()
         {
