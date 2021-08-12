@@ -8,7 +8,7 @@ namespace CabInvoiceGenerator
     {
         Dictionary<string, List<Ride>> userRides = null;
 
-        public RideRepository()
+        public RideRepository() 
         {
             this.userRides = new Dictionary<string, List<Ride>>();
         }
