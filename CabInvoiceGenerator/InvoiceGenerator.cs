@@ -37,6 +37,7 @@ namespace CabInvoiceGenerator
             }
         }
 
+
         public double CalculateFare(double distance, int time)
         {
             double totalFare = 0;
